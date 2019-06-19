@@ -1,0 +1,29 @@
+{
+  "name": "mysqldump-to-s3",
+  "version": "1.0.0",
+  "description": "Exports MySQL databases (via mysqldump) to S3 buckets",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luciditysoftware/mysqldump-to-s3"
+  },
+  "author": "tristankenney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luciditysoftware/mysqldump-to-s3/issues"
+  },
+  "homepage": "https://github.com/luciditysoftware/mysqldump-to-s3",
+  "dependencies": {
+    "async": "^2.1.4",
+    "aws-sdk": "^2.7.21",
+    "moment": "^2.17.1",
+    "mysql": "^2.12.0",
+    "node-lambda": "^0.8.0",
+    "p-limit": "^1.1.0"
+  },
+  "scripts": {
+    "setup": "node-lambda setup",
+    "run": "node-lambda run",
+    "deploy": "node-lambda deploy"
+  }
+}
