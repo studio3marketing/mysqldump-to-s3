@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/luciditysoftware/mysqldump-to-s3",
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "^3.2.2",
     "aws-sdk": "^2.7.21",
     "moment": "^2.17.1",
     "mysql": "^2.12.0",
